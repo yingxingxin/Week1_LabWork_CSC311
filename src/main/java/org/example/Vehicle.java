@@ -16,6 +16,7 @@ public class Vehicle {
         this.fuelType = fuelType;
     }
 
+
     //Getter for number of wheels
     public int getNumberOfWheels() {
         return this.numberOfWheels;

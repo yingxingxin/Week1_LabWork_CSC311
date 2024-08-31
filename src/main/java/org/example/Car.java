@@ -1,5 +1,6 @@
 package org.example;
 
+//Car child class
 public class Car extends Vehicle {
 
     String brand;
@@ -9,21 +10,22 @@ public class Car extends Vehicle {
         this.brand = brand;
     }
 
+    //Getter of brand
     public String getBrand() {
         return this.brand;
     }
 
-    //Getter for brand
+    //Setter for brand
     public void setBrand() {
         this.brand = brand;
     }
 
-    //Setter for brand
+    //Method that prints honk
     public void honk() {
         System.out.println("Honk, honk!");
+    }
 
-        }
-
+        //Method that prints all the attributes
         public void displayInfo() {
             System.out.println("Brand: " + brand);
             System.out.println("Number of Wheels: " + numberOfWheels);
