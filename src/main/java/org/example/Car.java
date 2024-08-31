@@ -5,6 +5,7 @@ public class Car extends Vehicle {
 
     String brand;
 
+    //Constructor
     public Car(int numberOfWheels, String color, float engineSize, String fuelType, String brand) {
         super(numberOfWheels, color, engineSize, fuelType);
         this.brand = brand;
